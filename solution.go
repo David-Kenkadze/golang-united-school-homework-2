@@ -17,12 +17,12 @@ const SidesCircle sides = 0
 // CalcSquare(10.0, SidesCircle)
 
 func CalcSquare(sideLen float64, sidesNum sides) float64 {
-     if sidesNum == o{
-         return Pi*pow(sideLen,2)
+     if sidesNum == 0{
+          return (math.Pi)*(math.Pow(sideLen,2))
      } else if sidesNum == 3{
-         return (pow(sideLen,2)/4)*sqrt(3)
+          return (math.Pow(sideLen,2)/4)*(mathSqrt(3))
      } else if sidesNum ==4 {
-         return pow(sideLen,2)
+         return math.Pow(sideLen,2)
      } else{
          return 0
      }
